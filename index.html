@@ -5,8 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
+
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="swiper-bundle.min.css" />
+
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+
+
+
+     <!-- Boxicons CSS -->
+     <link
+     href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+     rel="stylesheet"
+   />
+
+
   </head>
   <body>
     <nav id="desktop-nav">
@@ -96,7 +111,7 @@
                 class="icon"
               />
               <h3>Skills</h3>
-              <p>2+ years <br />Frontend Development</p>
+              <p> Web Development<br />Frontend/Backend</p>
             </div>
             <div class="details-container">
               <img
@@ -124,12 +139,12 @@
     </section>
 
     <section id="skills">
-      <p class="section__text__p1">Explore My</p>
+      <p class="section__text__p1">Explore My Programming</p>
       <h1 class="title">Skills</h1>
       <div class="skills-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <h2 class="skills-sub-title">Programming :</h2>
+            
             <div class="article-container">
               <article>
                 <img
@@ -222,7 +237,7 @@
             </div>
           </div>
           <div class="details-container">
-            <h2 class="skills-sub-title">Programming :</h2>
+            
             <div class="article-container">
               <article>
                 <img
@@ -320,9 +335,79 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#projects'"
+        onclick="location.href='./#certificates'"
       />
     </section>
+
+
+
+<section id="certificates">
+    <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Certificates</h1><br><br> <br>
+    
+    <section class="container">
+      <div class="testimonial mySwiper details-container">
+        <div class="testi-content swiper-wrapper ">
+          <div class="slide swiper-slide">
+            <img src="./assets/ABCD.jpg" alt="" class="image" />
+            <p>
+            " The Complete 2023 Web Development Bootcamp is an all-inclusive Udemy course that equips learners with the latest web development skills. From front-end technologies like HTML, CSS, and JavaScript to back-end frameworks like Node.js and Express.js, this comprehensive bootcamp covers everything needed to become a proficient web developer in 2023. With hands-on projects and practical exercises, students gain real-world experience and confidence to build dynamic and responsive websites "
+            </p>
+
+            <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+            <div class="details">
+              <span class="name">The Complete 2023 Web Development Bootcamp</span>
+              <span class="job">- Dr. Angela Yu</span>
+            </div>
+          </div>
+          <div class="slide swiper-slide">
+            <img src="./assets/python.jpg" alt="" class="image" />
+            <p>
+            " The 100 Days of Code: The Complete Python Pro Bootcamp for 2023 is an intensive Udemy course designed to transform beginners into Python professionals. Spanning 100 days, learners will master Python fundamentals, advanced concepts, and various libraries like Pandas and Flask to build impressive projects. With daily coding exercises and expert guidance, participants will develop a strong foundation in Python and gain the skills needed to thrive in 2023's competitive tech industry "
+            </p>
+
+            <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+            <div class="details">
+              <span class="name">The 100 Days of Code: The Complete Python Pro Bootcamp for 2023</span>
+              <span class="job"> - Dr. Angela Yu</span>
+            </div>
+          </div>
+          <div class="slide swiper-slide">
+            <img src="./assets/ijkl.jpg" alt="" class="image" />
+            <p>
+            " The Complete Introduction to JS" is a comprehensive Udemy course designed to provide newcomers with a solid foundation in JavaScript. In just three lines, learners will gain hands-on experience and understanding of fundamental concepts, syntax, and practical applications, empowering them to create interactive web experiences and explore the vast world of web development "
+            </p>
+            <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+            <div class="details">
+              <span class="name">JavaScript for Beginners - The Complete introduction to JS</span>
+              <span class="job">- Yassin Marco</span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next nav-btn"></div>
+        <div class="swiper-button-prev nav-btn"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      
+  
+    </section>
+    <img
+    src="./assets/arrow.png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='./#projects'"
+  />
+</section>
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
 
 
     <section id="projects">
@@ -397,6 +482,7 @@
               <button
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://prajwalc-22.github.io/Tindog-Website/'"
+                
               >
                 Live Demo
               </button>
@@ -409,7 +495,11 @@
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#contact'"
-      />
+      /> 
+
+
+
+
 
 
     <section id="contact">
@@ -440,7 +530,7 @@
           <ul class="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
-            <li><a href="#certificates">Certificatess</a></li>
+            <li><a href="#certificates">Certificates</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
@@ -448,6 +538,13 @@
       </nav>
       <p>Copyright &#169; 2023 Prajwal C. All Rights Reserved.</p>
     </footer>
+
+
+     <!-- Swiper JS -->
+     <script src="swiper-bundle.min.js"></script>
+
+
+
     <script src="script.js"></script>
   </body>
 </html>
